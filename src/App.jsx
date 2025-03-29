@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Weather from './Components/Weather';
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="min-h-[100vh] grid place-items-center bg-[#e2d4ff]">
+      <Weather />
+    </div>
+  );
+};
 
-export default App
+export default App;
